@@ -34,7 +34,7 @@ define(['jquery', 'underscore',
   function register(name, resourceType) { registry[name.singularize()] = resourceType; }
 
   _.chain(arguments)
-      .drop(2)
+      .drop(4)
       .flatten()
       .each(function(resource){
         resource.register(register)
