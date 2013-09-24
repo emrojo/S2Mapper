@@ -1,4 +1,4 @@
-define(['config', 'mapper/s2_root'], function(config, root) {
+define(['jquery', 'underscore', 'config', 'mapper/s2_root'], function($, _, config, root) {
   'use strict';
   return {
     /*

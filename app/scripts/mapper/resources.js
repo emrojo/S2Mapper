@@ -1,4 +1,4 @@
-define([
+define(['jquery', 'underscore', 
   'mapper/support/pluralization',
   'mapper/s2_base_resource',
 
@@ -18,7 +18,7 @@ define([
   'mapper/s2_movement_resources',
   'mapper/s2_labellable_resource',
   'mapper/s2_printer_resource'
-], function(ignoreStringStuff, BaseResource) {
+], function($, _, ignoreStringStuff, BaseResource) {
   'use strict';
 
   // This is the registry for all resource classes, mapped from the name in the JSON.

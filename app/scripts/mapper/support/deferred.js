@@ -3,7 +3,7 @@
  * dependent, or dependent in parallel.  The objects returned from the two functions behave like
  * deferreds themselves, although limited in their functionality slightly.
  */
-define([], function() {
+define(['jquery', 'underscore'], function($, _ ) {
   return {
     /*
      * Create a deferred-like object that handles a number of functions that are sequentially dependent,

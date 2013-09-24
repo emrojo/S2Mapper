@@ -2,9 +2,9 @@
  * Something that can have labels on it is labellable.  Require this module and extend the instance
  * with the returned object to get the appropriate functionality.
  */
-define([
+define(['jquery', 'underscore', 
   'mapper/support/deferred'
-], function(Deferred) {
+], function($, _, Deferred) {
   'use strict';
 
   return {

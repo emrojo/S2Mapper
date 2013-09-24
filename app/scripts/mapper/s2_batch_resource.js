@@ -1,4 +1,4 @@
-define(['mapper/s2_base_resource'], function (BaseResource) {
+define(['jquery', 'underscore', 'mapper/s2_base_resource'], function ($, _, BaseResource) {
   'use strict';
 
   /*

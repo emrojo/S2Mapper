@@ -1,10 +1,10 @@
-define([
+define(['jquery', 'underscore', 
   "mapper/s2_base_resource",
   "mapper/s2_batch_resource",
   "mapper/s2_order_resource",
   "mapper/s2_labeling_module",
   "mapper/s2_batchable_module"
-], function(BaseResource, BatchResource, Order, LabelingModule, BatchableModule){
+], function($, _, BaseResource, BatchResource, Order, LabelingModule, BatchableModule){
   'use strict';
 
   var Tube = BaseResource.extendAs("tube", function(tubeInstance, options) {

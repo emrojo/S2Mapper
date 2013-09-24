@@ -1,9 +1,9 @@
-define([
+define(['jquery', 'underscore', 
   "config",
   "mapper/s2_ajax",
   "mapper/resources",
   "mapper/support/pluralization"
-], function(config, S2Ajax, Resources) {
+], function($, _, config, S2Ajax, Resources) {
   "use strict";
 
   // register resources with root.

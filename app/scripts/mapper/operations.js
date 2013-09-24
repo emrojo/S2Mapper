@@ -1,4 +1,4 @@
-define(['mapper/support/deferred'], function(Deferred) {
+define(['jquery', 'underscore', 'mapper/support/deferred'], function($, _, Deferred) {
   'use strict';
 
   return {

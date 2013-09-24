@@ -1,6 +1,6 @@
-define([
+define(['jquery', 'underscore', 
   'mapper/s2_base_resource'
-], function(BaseResource) {
+], function($, _, BaseResource) {
   'use strict';
 
   var labelPrintProcessor = function(deferred) {

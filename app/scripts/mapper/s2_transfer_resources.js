@@ -1,4 +1,4 @@
-define(["mapper/s2_base_resource"], function(BaseResource) {
+define(['jquery', 'underscore', "mapper/s2_base_resource"], function($, _, BaseResource) {
   "use strict";
 
   var transferModels = _.chain({
@@ -32,7 +32,7 @@ define(["mapper/s2_base_resource"], function(BaseResource) {
       };
     }
   }).pairs().map(function(pair) {
-    return $.extend(BaseResource.extendAs(pair[0], function(transferInstance) {
+    return $.extend(BaseResource.extendAs(pair[0], function($, _, transferInstance) {
       return transferInstance;
     }), {
       extract: function(transfers) {

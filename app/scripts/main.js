@@ -9,7 +9,7 @@ require.config({
   }
 });
  
-require(['app','services/print'], function(app, services) {
+require(['underscore', 'jquery', 'app','services/print'], function($, _, app, services) {
   // use app here
   $('#print').click(function (){
     services.print('barcode', 'desc', 'name', 'prefix', 'project', 'suffix').done(function(){

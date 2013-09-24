@@ -1,7 +1,7 @@
-define([
+define(['jquery', 'underscore', 
   'mapper/s2_base_resource',
   'mapper/s2_labeling_module'
-], function (BaseResource) {
+], function ($, _, BaseResource) {
   'use strict';
 
   var Kit = BaseResource.extendAs('kit', function(kitInstance, options) {

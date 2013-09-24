@@ -1,4 +1,4 @@
-define([], function(){
+define(['jquery', 'underscore' ], function($, _){
   "use strict";
 
   // BaseResource is intended to be an abstract class used by concrete

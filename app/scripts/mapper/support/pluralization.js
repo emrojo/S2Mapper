@@ -6,7 +6,7 @@
  *
  * These are rule based and may not always get the right answer!
  */
-define([], function() {
+define(['jquery', 'underscore', ], function($, _ ) {
   'use strict';
 
   /*

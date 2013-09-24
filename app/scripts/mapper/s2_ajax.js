@@ -1,4 +1,4 @@
-define(['config'], function(config) {
+define(['jquery', 'underscore', 'config'], function($, _, config) {
   'use strict';
 
   // actionMethods maps the ajax request type to RESTful CRUD operations,
